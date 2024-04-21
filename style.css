@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2vw 10.5vw;
+  height: 13vh;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2vw;
+}
+
+.nav-menu h4 {
+  font-size: 0.8vw;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nav-part2 {
+  display: flex;
+  gap: 2vw;
+  align-items: flex-start;
+  padding: 1.5vh 0;
+  position: relative;
+  z-index: 10;
+}
+
+.nav-part2 h4 {
+  font-size: 0.7vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 2.4vw;
+}
+
+.nav-part2 h5 {
+  margin-bottom: 1vw;
+  opacity: 0;
+}
+
+.nav-part2 h5 span {
+  font-size: 0.6vw;
+  font-weight: 300;
+  display: inline-block;
+}
+
+#nav-bottom {
+  width: 78%;
+  height: 0;
+  position: absolute;
+  top: 100%;
+  background: #111;
+  z-index: 9;
+  border-bottom: 1px solid #fff;
+}
+
+nav button {
+  background-color: #0DA34E;
+  display: flex;
+  align-items: center;
+  padding: 14px 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 0.85vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+nav button svg {
+  height: 0.9vw;
+  margin-left: 1.5vw;
+}
+
+#page1,
+#page2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+}
+
+#page1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#page1 h1 {
+  font-size: 8vw;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 8vw;
+}
+
+#page1 h1 svg {
+  width: 6vw;
+  height: 6vw;
+  background: #0DA34E;
+  border-radius: 100%;
+}
+
+#page1 p {
+  font-weight: 300;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+#expertise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#expertise h5 {
+  font-size: 1vw;
+  font-weight: 400;
+  text-transform: lowercase;
+  padding: 10px 12px;
+  border: 1px solid #666;
+  border-radius: 50px;
+  margin-top: 0.5vw;
+}
+
+#expertise h5:nth-last-child(2) {
+  border: none;
+  padding: 0;
+}
